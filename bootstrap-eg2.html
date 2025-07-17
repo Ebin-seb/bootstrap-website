@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap-eg2.css">
+</head>
+
+<body>
+    <div class="full-body container-fluid bg-dark pt-2">
+        <nav class="navbar fixed-top container-lg-fluid bg-black z-5    text-white  navbar-expand-lg ps-5 pe-5"
+            style="height:60px;">
+            <a class="navbar-brand text-white fw-bold fs-2" href="#">Assan*</a>
+
+
+
+            <button class="navbar-toggler  bg-white toggle" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon "></span>
+            </button>
+
+            <div class="collapse navbar-collapse position-relative bg-black ps-md-2 ps-sm-4"
+                id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Landings
+                        </a>
+                        <ul class="dropdown-menu  drop">
+                            <li><a class="dropdown-item" href="#">Item 1</a></li>
+                            <li><a class="dropdown-item" href="#">Item 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            portifolio
+                        </a>
+                        <ul class="dropdown-menu  drop">
+                            <li><a class="dropdown-item" href="#">Item 1</a></li>
+                            <li><a class="dropdown-item" href="#">Item 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            blog
+                        </a>
+                        <ul class="dropdown-menu  drop">
+                            <li><a class="dropdown-item" href="#">Item 1</a></li>
+                            <li><a class="dropdown-item" href="#">Item 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            pages
+                        </a>
+                        <ul class="dropdown-menu  drop">
+                            <li><a class="dropdown-item" href="#">Item 1</a></li>
+                            <li><a class="dropdown-item" href="#">Item 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            components
+                        </a>
+                        <ul class="dropdown-menu  drop">
+                            <li><a class="dropdown-item" href="#">Item 1</a></li>
+                            <li><a class="dropdown-item" href="#">Item 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            features
+                        </a>
+                        <ul class="dropdown-menu  drop">
+                            <li><a class="dropdown-item" href="#">Item 1</a></li>
+                            <li><a class="dropdown-item" href="#">Item 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            demos
+                        </a>
+                        <ul class="dropdown-menu drop">
+                            <li><a class="dropdown-item" href="#">Item 1</a></li>
+                            <li><a class="dropdown-item" href="#">Item 2</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="mb-3 mb-3 mb-lg-0 text-center">
+                    <button type="button" class="btn  btn-success ms-3">purchase</button>
+                </div>
+            </div>
+        </nav>
+
+
+        <div id="carouselExample" class="carousel slide ">
+            <div class="carousel-inner  z-0">
+                <div class="carousel-item active  position-relative">
+                    <img src="images/bg1.jpg" class="d-block img-fluid w-100 " alt="...">
+                    <div
+                        class="dark-overlay position-absolute z-1 top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                        <span class="text-white ">
+                            <h1 class="d-none d-lg-block  " style="font-weight: bolder;font-size:5em;">Create a website
+                            </h1>
+                            <h1 class="d-none d-lg-block " style="font-weight: bolder;font-size:5em;">you are proud of
+                            </h1>
+                            <h1 class="d-none d-md-block d-lg-none" style="font-weight: bolder;font-size:3.5em;">Create
+                                a website </h1>
+                            <h1 class="d-none d-md-block d-lg-none" style="font-weight: bolder;font-size:3.5em;">you are
+                                proud of</h1>
+                            <h1 class="d-none d-md-none d-lg-none d-sm-block "
+                                style="font-weight: bolder;font-size:2em;">Create a website </h1>
+                            <h1 class="d-none d-md-none d-lg-none d-sm-block"
+                                style="font-weight: bolder;font-size:2em;">you are proud of</h1>
+                            <h1 class="d-block d-sm-none " style="font-weight: bolder;font-size:2em;">Create a website
+                            </h1>
+                            <h1 class="d-block  d-sm-none" style="font-weight: bolder;font-size:2em;">you are proud of
+                            </h1>
+
+                        </span>
+                        <button type="button" class="btn overlay-button d-none d-sm-block z-1 mt-4 p-3">Get
+                            started</button>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div
+                        class="dark-overlay position-absolute z-1 top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                        <span class="text-white ">
+                            <h1 class="d-none d-lg-block text-center  " style="font-weight: bolder;font-size:5em;">a
+                                responsive theme
+                            </h1>
+
+                            <h1 class="d-none d-md-block d-lg-none" style="font-weight: bolder;font-size:3.5em;">a
+                                responsive theme</h1>
+                            <h1 class="d-none d-md-none d-lg-none d-sm-block "
+                                style="font-weight: bolder;font-size:2em;"> a responsive theme</h1>
+                            <h1 class="d-block d-sm-none  " style="font-weight: bolder;font-size:2em;">a responsive
+                                theme
+                            </h1>
+
+
+                        </span>
+                        <button type="button" class="btn overlay-button d-none d-sm-block z-1 mt-4 p-3">Get
+                            started</button>
+                    </div>
+                    <img src="images/bg2.jpg" class="d-block img-fluid w-100 " alt="...">
+                </div>
+                <div class="carousel-item">
+                    <div
+                        class="dark-overlay position-absolute z-1 top-0 start-0 w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                        <span class="text-white ">
+                            <h1 class="d-none d-lg-block  " style="font-weight: bolder;font-size:5em;">website solution
+                            </h1>
+
+                            <h1 class="d-none d-md-block d-lg-none" style="font-weight: bolder;font-size:3.5em;">
+                                website solution</h1>
+
+                            <h1 class="d-none d-md-none d-lg-none d-sm-block "
+                                style="font-weight: bolder;font-size:2em;">website solution </h1>
+                            <h1 class="d-block d-sm-none " style="font-weight: bolder;font-size:2em;">website solution
+                            </h1>
+
+
+                        </span>
+                        <button type="button" class="btn overlay-button d-none d-sm-block z-1 mt-4 p-3">Get
+                            started</button>
+                    </div>
+                    <img src="images/bg3.jpg" class="d-block img-fluid w-100 " alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev " type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+
+        <div class="">
+            <div class="mt-5 text-white text-center">
+                <p class="fs-5">welcome to assan</p>
+                <h1 class="fw-bolder mt-4 d-none d-lg-block d-md-block d-sm-block" style="font-size:3em">reimagine your
+                    product with</h1>
+                <h1 class="fw-bolder mt-o d-none d-lg-block d-md-block d-sm-block" style="font-size:3em">forward
+                    thinking solutions</h1>
+                <h1 class="fw-bolder mt-4 d-block d-lg-none d-md-none d-sm-none" style="font-size:2em">reimagine your
+                    product with</h1>
+                <h1 class="fw-bolder mt-o d-block d-lg-none d-md-none d-sm-none" style="font-size:2em">forward thinking
+                    solutions</h1>
+
+            </div>
+
+            <div class="d-lg-flex d-md-block d-sm-block   justify-content-around mt-4">
+                <div class="ms-2  ms-lg-5 ms-md-5 ms-sm-5 me-0 me-md-5 me-sm-5 ">
+                    <div class="text-center mt-4"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70"
+                            fill="currentColor" class="text-primary bi bi-arrow-repeat" viewBox="0 0 18 18 ">
+                            <path
+                                d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41m-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9" />
+                            <path fill-rule="evenodd"
+                                d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5 5 0 0 0 8 3M3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9z" />
+                        </svg>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-white mt-4">Reusable elements</h5>
+                        <p class="card-text text-center text-white mt-3">Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. Nihil animi iste modi sint culpa velit unde impedit a laudantium quisquam.
+                        </p>
+                        <div class="text-center  mb-4"><a class=" icon-link rotate-hover-link   "
+                                style=" --bs-link-hover-color-rgb: 255, 0, 0;" href="#">
+                                Learn More
+                                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16"
+                                    aria-hidden="true">
+                                    <path
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </a></div>
+                    </div>
+                </div>
+                <div class=" ms-2 me-2 ms-md-5 ms-sm-5  me-md-5 me-sm-5 ">
+                    <div class="text-center mt-4"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60"
+                            fill="currentColor" class="text-primary bi bi-lightbulb" viewBox="0 0 16 16">
+                            <path
+                                d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a2 2 0 0 0-.453-.618A5.98 5.98 0 0 1 2 6m6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1" />
+                        </svg>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-white mt-4">Best seller</h5>
+                        <p class="card-text text-center text-white mt-3">Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. Nihil animi iste modi sint culpa velit unde impedit a laudantium quisquam.
+                        </p>
+                        <div class="text-center  mb-4"><a class=" icon-link rotate-hover-link   "
+                                style=" --bs-link-hover-color-rgb: 255, 0, 0;" href="#">
+                                Learn More
+                                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16"
+                                    aria-hidden="true">
+                                    <path
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </a></div>
+                    </div>
+                </div>
+                <div class="  me-5  ms-md-5 ms-sm-5  me-md-5 me-sm-5 ">
+                    <div class="text-center mt-4"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60"
+                            fill="currentColor" class="text-primary bi bi-emoji-smile-upside-down" viewBox="0 0 16 16">
+                            <path d="M8 1a7 7 0 1 0 0 14A7 7 0 0 0 8 1m0-1a8 8 0 1 1 0 16A8 8 0 0 1 8 0" />
+                            <path
+                                d="M4.285 6.433a.5.5 0 0 0 .683-.183A3.5 3.5 0 0 1 8 4.5c1.295 0 2.426.703 3.032 1.75a.5.5 0 0 0 .866-.5A4.5 4.5 0 0 0 8 3.5a4.5 4.5 0 0 0-3.898 2.25.5.5 0 0 0 .183.683M7 9.5C7 8.672 6.552 8 6 8s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5m4 0c0-.828-.448-1.5-1-1.5s-1 .672-1 1.5.448 1.5 1 1.5 1-.672 1-1.5" />
+                        </svg>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title text-center text-white mt-4">Design and innovation</h5>
+                        <p class="card-text text-center text-white mt-3">Lorem ipsum, dolor sit amet consectetur
+                            adipisicing elit. Nihil animi iste modi sint culpa velit unde impedit a laudantium quisquam.
+                        </p>
+                        <div class="text-center  mb-4"><a class=" icon-link rotate-hover-link   "
+                                style=" --bs-link-hover-color-rgb: 255, 0, 0;" href="#">
+                                Learn More
+                                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16"
+                                    aria-hidden="true">
+                                    <path
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <hr class="mb-4 text-primary w-100">
+        <div class="row justify-content-between">
+            <div class="bg-warning ms-5  col-lg-5 col-md-10 col-10"
+                style="height:450px;margin-top:200px;border-radius:30px;position:relative;"><img src="images/trans2.png"
+                    class="img-fluid" style="position:absolute;bottom:0;" alt=""></div>
+            <div class="ms-5 col-lg-6 col-10 ">
+                <p class="text-white ms-3 mt-4">why choose us?</p>
+                <h2 class="text-white ms-3 mt-5 fs-1 fw-bolder">Designed for developers</h1>
+                    <div class="ms-3 mt-5 me-lg-5  pe-5">
+                        <div class="text-white d-inline-flex flex-row w-lg-100">
+                            <div class=" flex-shrink-0 mt-4   d-inline-flex align-items-center justify-content-center rounded-circle bg-primary bg-opacity-75 text-white"
+                                style="width: 30px; height: 30px;">
+                                <i class="bi fs-5 fw-bold bi-check-lg"></i>
+                            </div>
+                            <div class="ms-4 mt-4 d-inline-flex flex-column">
+                                <h5 class="fw-bold">500+ Reusable components </h5>
+                                <p class="mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ac turpis egestas maecenas
+                                    pharetra convallis. </p>
+                            </div>
+                        </div>
+                        <div class="text-white d-flex">
+                            <div class=" mt-3 flex-shrink-0 d-inline-flex align-items-center justify-content-center rounded-circle bg-primary bg-opacity-75 text-white"
+                                style="width: 30px; height: 30px;">
+                                <i class="bi fs-5 fw-bold bi-check-lg"></i>
+                            </div>
+                            <div class="ms-4 mt-3 d-inline-flex flex-column">
+                                <h5 class="fw-bold">Beautifully designed layouts </h5>
+                                <p class="mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ac turpis egestas maecenas
+                                    pharetra convallis. </p>
+                            </div>
+                        </div>
+                        <div class="text-white d-flex">
+                            <div class="  mt-3 flex-shrink-0  d-inline-flex align-items-center justify-content-center rounded-circle bg-primary bg-opacity-75 text-white"
+                                style="width: 30px; height: 30px;">
+                                <i class="bi fs-5 fw-bold bi-check-lg"></i>
+                            </div>
+                            <div class="ms-3 mt-3 d-inline-flex flex-column w-100">
+                                <h5 class="fw-bold">Clean & well coded </h5>
+                                <p class="mt-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                    tempor incididunt ut labore et dolore magna aliqua. Ac turpis egestas maecenas
+                                    pharetra convallis. </p>
+                            </div>
+                        </div>
+                        <div class="text-lg-end text-center mb-4 mt-3"><a
+                                class="text-primary icon-link rotate-hover-link   "
+                                style=" --bs-link-hover-color-rgb: 255, 0, 0;" href="#">
+                                Learn More
+                                <svg xmlns="http://www.w3.org/2000/svg" class="bi" viewBox="0 0 16 16"
+                                    aria-hidden="true">
+                                    <path
+                                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+
+        <div class=" text-white container-fluid mt-5 " style="height:100vh;">
+            <div class="bg-primary text-center pt-5" style="height:500px;border-radius:50px">
+                <p class="fs-4 ">case studies</p>
+                <h1 class="fs-1 fw-bolder">Our works speaks fo itself</h1>
+
+                <div class="carousel-wrapper" id="carousel">
+                    <div class="card card-item">
+                        <img src="images/1.jpg" alt="Image 1">
+                    </div>
+                    <div class="card card-item">
+                        <img src="images/2.jpg" alt="Image 2">
+                    </div>
+                    <div class="card card-item">
+                        <img src="images/3.jpg" alt="Image 3">
+                    </div>
+                    <div class="card card-item">
+                        <img src="images/4.jpg" alt="Image 4">
+                    </div>
+                    <div class="card card-item">
+                        <img src="images/5.jpg" alt="Image 5">
+                    </div>
+                </div>
+
+                <div class="text-center mt-5"><button type="button" class="btn case-studies btn-light">View all case
+                        studies</button></div>
+            </div>
+        </div>
+
+
+
+        <div class="testimonial h-100  mt-5">
+            <div class="p-5 text-white container">
+                <p class="fs-5 mt-2">Testimonials</p>
+                <div class="d-flex justify-content-between">
+                    <h1 class="fs-1 fw-bolder">What client say</h1>
+                    <button class="btn test-link btn-primary position-relative icon-hover-btn">
+                        customer stories
+                        <i class="bi bi-arrow-right icon-hover"></i>
+                    </button>
+                </div>
+                <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item swiper active bg-black mt-5"
+                            style="height:450px;border-radius:30px;overflow:hidden">
+                            <div class="row  h-100">
+                                <div class="image col-md-5 p-0  " style="border-radius:20px;">
+                                    <img src="images/c1.jpg" class=" h-100 w-100 img-fluid rounded-start"
+                                        style="background-size:cover ;" alt="">
+                                </div>
+                                <div
+                                    class="col-md-7 d-flex flex-column justify-content-center align-items-center text-white">
+                                    <p>Booking.com</p>
+                                    <h2 class="text-center px-3">"Lorem ipsum dolor sit amet, consectetur adipisicing
+                                        elit."</h2>
+                                    <a href="#" class="text-white text-decoration-none">- Nikitha</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active bg-black mt-5"
+                            style="height:450px;border-radius:30px;overflow:hidden">
+                            <div class="row h-100">
+                                <div class="col-md-5 p-0 image " style="border-radius:20px;">
+                                    <img src="images/c2.jpg" class="h-100  w-100 img-fluid rounded-start"
+                                        style="background-size:cover ;" alt="">
+                                </div>
+                                <div
+                                    class="col-md-7 d-flex flex-column justify-content-center align-items-center text-white">
+                                    <p>Booking.com</p>
+                                    <h2 class="text-center px-3">" consectetur adipisicing elit."</h2>
+                                    <a href="#" class="text-white text-decoration-none">- haritha</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active bg-black mt-5"
+                            style="height:450px;border-radius:30px;overflow:hidden">
+                            <div class="row h-100">
+                                <div class="col-md-5 p-0 image " style="border-radius:20px;">
+                                    <img src="images/c3.jpg" class="h-100  w-100 img-fluid rounded-start"
+                                        style="background-size:cover ;" alt="">
+                                </div>
+                                <div
+                                    class="col-md-7 d-flex flex-column justify-content-center align-items-center text-white">
+                                    <p>Booking.com</p>
+                                    <h2 class="text-center px-3">"Lorem ipsum dolor sit, amet consectetur adipisicing
+                                        elit. Corporis dolore atque quisquam accusamus quidem quas magni autem repellat
+                                        numquam accusantium"</h2>
+                                    <a href="#" class="text-white text-decoration-none">- anakha</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="d-flex justify-content-end">
+                        <button class="carousel-control-prev ctrl-prev" type="button"
+                            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next ctrl-nxt" type="button"
+                            data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container mb-5 mt-5 text-white">
+            <p class="mt-5 fs-5">BLOG</p>
+            <h1 class=" mt-3 fs-1 fw-bolder">Insights,thoughts &</h1>
+            <div class="d-lg-flex d-md-flex d-block justify-content-between">
+                <h1 class="fs-1 fw-bolder">Announcements</h1>
+                <button class="btn test-link btn-primary position-relative icon-hover-btn">
+                    our Blog
+                    <i class="bi bi-arrow-right icon-hover"></i>
+                </button>
+            </div>
+
+            <div
+                class="mt-5 d-lg-flex d-flex flex-column flex-lg-row flex-md-row align-items-center d-md-flex gap-5 justify-content-md-around ">
+                <div class="card h-card bg-dark text-white text-center" style="width: 20rem;">
+                    <div style="border-radius:inherit;overflow:hidden;"><img src="images/5.jpg" class="card-img-top"
+                            alt="..."></div>
+                    <div class="card-body">
+                        <a href="#" class="icon-link text-primary mt-2 text-decoration-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-calendar" viewBox="0 0 16 16">
+                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 
+                                       2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 
+                                       1 1 0V1zm-2 3v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 
+                                       0 0-1-1H2a1 1 0 0 0-1 1z" />
+                            </svg>
+                            12 jan 2025
+                        </a>
+                        <h5 class=" mt-2 card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                            alias.</h5>
+                        <p class=" mt-3 card-text">Some quick example... </p>
+                    </div>
+                </div>
+                <div class="card h-card bg-dark text-white text-center" style="width: 20rem;">
+                    <div style="border-radius:inherit;overflow:hidden;"><img src="images/1.jpg" class="card-img-top"
+                            alt="..."></div>
+                    <div class="card-body">
+                        <a href="#" class="icon-link text-primary mt-2 text-decoration-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-calendar" viewBox="0 0 16 16">
+                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 
+                                       2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 
+                                       1 1 0V1zm-2 3v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 
+                                       0 0-1-1H2a1 1 0 0 0-1 1z" />
+                            </svg>
+                            12 jan 2025
+                        </a>
+                        <h5 class=" mt-2 card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                            alias.</h5>
+                        <p class=" mt-3 card-text">Some quick example... </p>
+                    </div>
+                </div>
+                <div class="card h-card bg-dark text-white text-center" style="width: 20rem;">
+                    <div style="border-radius:inherit;overflow:hidden;"><img src="images/2.jpg" class="card-img-top"
+                            alt="..."></div>
+                    <div class="card-body">
+                        <a href="#" class="icon-link text-primary mt-2 text-decoration-none">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                class="bi bi-calendar" viewBox="0 0 16 16">
+                                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 
+                                       2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 
+                                       1 1 0V1zm-2 3v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V3a1 1 0 
+                                       0 0-1-1H2a1 1 0 0 0-1 1z" />
+                            </svg>
+                            12 jan 2025
+                        </a>
+                        <h5 class=" mt-2 card-title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa,
+                            alias.</h5>
+                        <p class=" mt-3 card-text">Some quick example... </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <hr class=",t-5 mb-5 text-primary w-100">
+        </div>
+        <div class="container text-center">
+            <p class="text-white fs-5">clients who love our <span class="text-primary">creativity.......</span></p>
+            <div class="mt-2 text-center text-white">
+                <img class="ms-3 ms-lg-5 me-0 me-lg-5 img-fluid mt-5" src="images/amazon.svg" alt="">
+                <img class="ms-3 ms-lg-5 me-0 me-lg-5 img-fluid mt-5" src="images/booking.com.svg" alt="">
+                <img class="ms-3 ms-lg-5 me-0 me-lg-5 img-fluid mt-5" src="images/didi.svg" alt="">
+                <img class="ms-3 ms-lg-5 me-0 me-lg-5 img-fluid mt-5" src="images/google.svg" alt="">
+                <img class="ms-3 ms-lg-5 me-0 me-lg-5 img-fluid mt-5" src="images/grab.svg" alt="">
+                <img class="ms-3 ms-lg-5 me-0 me-lg-5 img-fluid mt-5" src="images/microsoft.svg" alt="">
+                <img class="ms-3 ms-lg-5 me-0 me-lg-5 img-fluid mt-5" src="images/salesforce.svg" alt="">
+                <img class="ms-3 ms-lg-5 me-0 me-lg-5 img-fluid mt-5" src="images/slack.svg" alt="">
+                <img class="ms-3 ms-lg-5 me-0 me-lg-5 img-fluid mt-5" src="images/uber.svg" alt="">
+            </div>
+        </div>
+
+
+        <div class="container-fluid mt-5 footer h-100">
+            <div class="container-fluid container-lg container-md text-center text-white mt-5 p-5">
+                <h1 class="fw-light">Bring <span class="text-warning fw-bolder">assan Template</span> to</h1>
+                <h1 class="fw-light">Life and start building -</h1>
+                <h1 class="fw-light">today</h1>
+                <div class="container ms-0 me-0 ">
+                    <p class="mt-5 ms-0 me-0 text-center fs-4 fw-light ms-lg-5 me-lg-5">There are combined alignment
+                        methods when several types of alignment together are used in one composition</p>
+                </div>
+                <button class="btn mt-5 ms-0 p-3 test-link btn-primary position-relative icon-hover-btn">
+                    Purchase
+                    <i class="bi bi-arrow-right icon-hover"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="container-fluid  bg-black">
+            <div class="container ">
+                <div class="text-white d-block d-lg-flex justify-content-lg-between">
+                    <div class="mt-5 pt-5">
+                        <h2 class="fs-1 fw-bolder">work with us</h2>
+                        <a href="" class="link fs-4 link-offset-2  text-white ">mail@domain.com</a>
+                    </div>
+                    <div class=" mt-5 pt-5 d-flex gap-5 justify-content-between">
+                        <div class="footlinks">
+                            <h5 class=" text-primary fs-4">learn</h5>
+                            <a href="" class="mt-5 text-decoration-none text-white">design</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">digital</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">development</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">branding</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">graphics</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">project</a>
+                        </div>
+                        <div class="footlinks ">
+                            <h5 class="text-primary fs-4">resource</h5>
+                            <a href="" class="mt-5 text-decoration-none text-white">design</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">digital</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">development</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">branding</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">graphics</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">project</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">graphics</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">project</a>
+                        </div>
+                        <div class="footlinks ">
+                            <h5 class=" text-primary fs-4">company</h5>
+                            <a href="" class="mt-5 text-decoration-none text-white">design</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">digital</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">development</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">branding</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">graphics</a>
+                            <a href="" class="mt-5 text-decoration-none text-white">design</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">digital</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">development</a>
+                            <a href="" class="text-decoration-none text-white d-block mt-2">project</a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="text-white mt-4 w-100">
+                <div class="footlinks mt-5  text-center">
+                    <p class="text-white">@2025 copyright Assan</p>
+                    <i class="hover-icon-text text-white ms-2 bi bi-instagram"></i>
+                    <i class="hover-icon-text text-white ms-2 bi bi-facebook"></i>
+                    <i class="hover-icon-text text-white ms-2 bi bi-whatsapp"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+<script>
+    // Get all cards
+    document.querySelectorAll('.card-item').forEach(card => {
+        card.addEventListener('mouseenter', () => {
+            card.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+        });
+    });
+</script>
+
+</html>
